@@ -21,4 +21,6 @@ public class Usuario {
 	private List<Feature> features;
 	@OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
 	private List<Noticia> noticias;
+	
+	
 }
